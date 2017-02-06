@@ -1,0 +1,38 @@
+{
+  "name": "postcss-composition",
+  "version": "0.0.0",
+  "description": "PostCSS plugin Compose multiple CSS selectors together",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "compose",
+    "functional",
+    "composition",
+    ""
+  ],
+  "author": "fenstamaker <gary@fenstamaker.com>",
+  "license": "MIT",
+  "repository": "fenstamaker/postcss-composition",
+  "bugs": {
+    "url": "https://github.com/fenstamaker/postcss-composition/issues"
+  },
+  "homepage": "https://github.com/fenstamaker/postcss-composition",
+  "dependencies": {
+    "postcss": "^5.2.6"
+  },
+  "devDependencies": {
+    "eslint": "^3.12.2",
+    "eslint-config-postcss": "^2.0.2",
+    "jest": "^18.0.0"
+  },
+  "scripts": {
+    "test": "jest && eslint *.js"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-postcss/es5",
+    "env": {
+      "jest": true
+    }
+  }
+}
