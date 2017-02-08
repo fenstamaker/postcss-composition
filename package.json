@@ -1,6 +1,6 @@
 {
   "name": "postcss-composition",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "PostCSS plugin Compose multiple CSS selectors together",
   "keywords": [
     "postcss",
