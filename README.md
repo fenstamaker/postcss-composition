@@ -1,6 +1,8 @@
 # PostCSS Composition [![Build Status][ci-img]][ci]
 
-[PostCSS] plugin Compose multiple CSS selectors together.
+[PostCSS] PostCSS plugin to compose multiple CSS selectors together like CSS modules.
+Primarily meant to be used with Tachyons or other atomic CSS. Currently useable, but
+still in heavy development.
 
 [PostCSS]: https://github.com/postcss/postcss
 [ci-img]:  https://travis-ci.org/fenstamaker/postcss-composition.svg
